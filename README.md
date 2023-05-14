@@ -5,7 +5,7 @@ Details of the port:
 From BellSoft Liberica JDK 8  
 `com.sun.media.sound` -> `com.sun.media.sound`  
 `javax.sound` -> `javax.sound`  
-Removed all security managers, native-code related classes and `JavaSoundAudioClip.java`.
+Removed all SecurityManager related and native-code related classes, and `JavaSoundAudioClip.java`.
 
 ## Add the library to your project (gradle)
 1. Add the Maven Central repository (if not exist) to your build file:
