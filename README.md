@@ -20,7 +20,7 @@ repositories {
 ```groovy
 dependencies {
     ...
-    implementation 'com.tianscar.javasound:javasound-core:1.0.0'
+    runtimeOnly 'com.tianscar.javasound:javasound-core:1.0.0'
 }
 ```
 
