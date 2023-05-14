@@ -1,0 +1,2 @@
+# Providers for midi sequences
+com.tianscar.javasound.core.StandardMidiFileReader

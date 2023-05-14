@@ -1,0 +1,5 @@
+# Providers for FormatConversion
+com.tianscar.javasound.core.AudioFloatFormatConverter
+com.tianscar.javasound.core.UlawCodec
+com.tianscar.javasound.core.AlawCodec
+com.tianscar.javasound.core.PCMtoPCMCodec

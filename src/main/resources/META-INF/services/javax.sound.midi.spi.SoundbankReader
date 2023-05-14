@@ -1,0 +1,5 @@
+# Providers for Soundbanks
+com.tianscar.javasound.core.SF2SoundbankReader
+com.tianscar.javasound.core.DLSSoundbankReader
+com.tianscar.javasound.core.AudioFileSoundbankReader
+com.tianscar.javasound.core.JARSoundbankReader
