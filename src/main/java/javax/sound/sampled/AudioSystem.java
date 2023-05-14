@@ -25,7 +25,7 @@
 
 package javax.sound.sampled;
 
-import com.tianscar.javasound.core.JDK13Services;
+import com.sun.media.sound.JDK13Services;
 
 import javax.sound.sampled.spi.AudioFileReader;
 import javax.sound.sampled.spi.AudioFileWriter;
@@ -129,11 +129,11 @@ import java.util.*;
  *
  * For example, the property <code>javax.sound.sampled.Clip</code>
  * with a value
- * <code>&quot;com.tianscar.javasound.core.MixerProvider#SunClip&quot;</code>
+ * <code>&quot;com.sun.media.sound.MixerProvider#SunClip&quot;</code>
  * will have the following consequences when
  * <code>getLine</code> is called requesting a <code>Clip</code>
  * instance:
- * if the class <code>com.tianscar.javasound.core.MixerProvider</code> exists
+ * if the class <code>com.sun.media.sound.MixerProvider</code> exists
  * in the list of installed mixer providers,
  * the first <code>Clip</code> from the first mixer with name
  * <code>&quot;SunClip&quot;</code> will be returned. If it cannot
@@ -1386,7 +1386,7 @@ public class AudioSystem {
     /**
      * Obtains the set of audio file writers that are currently installed on the system.
      * @return a List of
-     * {@link javax.sound.samples.spi.AudioFileWriter AudioFileWriter}
+     * {@link javax.sound.sampled.spi.AudioFileWriter AudioFileWriter}
      * objects representing the available audio file writers.  If no audio file
      * writers are available on the system, an empty List is returned.
      */

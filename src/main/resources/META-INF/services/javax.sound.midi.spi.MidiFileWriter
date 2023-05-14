@@ -1,2 +1,2 @@
 # Providers for Midi file writing
-com.tianscar.javasound.core.StandardMidiFileWriter
+com.sun.media.sound.StandardMidiFileWriter

@@ -1,6 +1,6 @@
 # Providers for audio file reading
-com.tianscar.javasound.core.AuFileReader
-com.tianscar.javasound.core.AiffFileReader
-com.tianscar.javasound.core.WaveFileReader
-com.tianscar.javasound.core.WaveFloatFileReader
-com.tianscar.javasound.core.SoftMidiAudioFileReader
+com.sun.media.sound.AuFileReader
+com.sun.media.sound.AiffFileReader
+com.sun.media.sound.WaveFileReader
+com.sun.media.sound.WaveFloatFileReader
+com.sun.media.sound.SoftMidiAudioFileReader

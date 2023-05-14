@@ -1,4 +1,4 @@
 # Providers for writing audio files
-com.tianscar.javasound.core.AuFileWriter
-com.tianscar.javasound.core.AiffFileWriter
-com.tianscar.javasound.core.WaveFileWriter
+com.sun.media.sound.AuFileWriter
+com.sun.media.sound.AiffFileWriter
+com.sun.media.sound.WaveFileWriter

@@ -3,7 +3,7 @@ The stand-alone JavaSound framework core, ported from JDK. If you want to use th
 
 Details of the port:  
 From BellSoft Liberica JDK 8  
-`com.sun.media.sound` -> `com.tianscar.javasound.core`  
+`com.sun.media.sound` -> `com.sun.media.sound`  
 `javax.sound` -> `javax.sound`  
 Removed all security managers, native-code related classes and `JavaSoundAudioClip.java`.
 

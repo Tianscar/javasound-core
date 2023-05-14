@@ -25,7 +25,7 @@
 
 package javax.sound.midi;
 
-import com.tianscar.javasound.core.MidiUtils;
+import com.sun.media.sound.MidiUtils;
 
 import java.util.ArrayList;
 import java.util.HashSet;

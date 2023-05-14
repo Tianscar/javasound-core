@@ -1,2 +1,2 @@
 # Providers for midi devices
-com.tianscar.javasound.core.SoftProvider
+com.sun.media.sound.SoftProvider
