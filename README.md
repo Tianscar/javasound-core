@@ -1,4 +1,4 @@
-WARNING: THIS PROJECT IS NO LONGER MAINTAINED. MOVED TO: https://github.com/jseproject/jse-api/
+WARNING: THIS PROJECT IS NO LONGER MAINTAINED. MOVED TO: https://github.com/jseproject/jse-shim/
 
 # JavaSound Framework Core
 The stand-alone JavaSound framework core, ported from JDK. If you want to use the decoder/encoder (or third-party plugins) from JavaSound framework without include the whole `java.desktop` module (e.g. play `AudioInputStream` with OpenAL), you can include it to your project as a dependency.
